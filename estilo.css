@@ -13,3 +13,6 @@ div h2 {
 div p:hover {
     color: white;
 }
+img {
+    display: block;
+}
