@@ -161,7 +161,7 @@ header nav button[type="submit"] {
     /* Centra el texto dentro del contenedor */
     vertical-align: middle;
     /* Alinea verticalmente el contenido en el centro */
-    background-color: rgb(194, 202, 212);
+    background-color: rgb(204, 210, 216);
 }
 
 .contenedor img {
@@ -169,7 +169,7 @@ header nav button[type="submit"] {
     /* Permite que la imagen ocupe el ancho máximo del contenedor */
     height: 70%;
     /* Mantiene la proporción de aspecto de la imagen */
-    margin: 10% auto;
+    margin: 3% auto;
     /* Centra la imagen horizontalmente */
     display: block;
     /* Asegura que la imagen se comporte como un bloque */
@@ -189,3 +189,11 @@ footer p {
     padding: 10px;
     /* Agrega espacio alrededor del texto */
 }
+
+.contenedor:hover {
+    background-color: #99c5dd; /* Color de fondo al pasar el ratón */
+  }
+  
+  .contenedor:hover {
+    transform: scale(1.1) rotate(10deg); /* Animación de zoom y rotación */
+  }
